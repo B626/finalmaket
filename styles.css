@@ -18,7 +18,7 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     align-items: center;
 }
@@ -40,6 +40,28 @@ body{
     color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 15pt;
     margin: 0 49px 0 0;
+}
+
+.sign-up_button{
+    margin: 50px 0 0 0;
+    background-color: #0DBBBF;
+    border: 1px solid white;
+    color: white;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.active {
+    color: black;
+}
+
+.main-text{
+    color: white;
+    font-size: 55pt;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
 }
