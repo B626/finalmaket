@@ -144,6 +144,14 @@ body{
     height: 100vh;
 }
 
+.container_main-text_top-part{
+    max-width: 650px;
+}
+
+.container_subtitle-text_top-part{
+    max-width: 580px;
+}
+
 /* easy & useful */
 
 .easy_useful{
@@ -152,6 +160,7 @@ body{
 
 .main-part_easy-useful{
     text-align: center;
+    width: 570px;
 }
 
 .secondary-part_easy-useful{
@@ -215,6 +224,7 @@ body{
     font-size: 15px;
     color: #78909C;
     font-weight: 400px;
+    width: 350px;
 }
 
 .easy-useful_button{
@@ -236,3 +246,7 @@ body{
     justify-content: center;
 }
 
+.container_main-part_easy-useful{
+    display: flex;
+    justify-content: center;
+}
