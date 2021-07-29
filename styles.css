@@ -42,6 +42,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 15pt;
     margin: 0 49px 0 0;
+    font-weight: 600;
 }
 
 .sign-up_button{
@@ -52,6 +53,7 @@ body{
     padding: 4px 10px 4px 10px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 .active {
@@ -77,6 +79,7 @@ body{
     font-size: 18px;  
     margin: 18pt 0 42px 0;
     line-height: 1.5;
+    font-weight: 400;
 }
 
 .buttons{
@@ -94,6 +97,7 @@ body{
     margin: 20px 30px 0 0; 
     padding: 23px 43px 22px 43px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    font-weight: 400;
 }
 
 .try-for-free_button{
@@ -106,6 +110,7 @@ body{
     margin: 20px 0 0 0; 
     padding: 23px 26px 22px 33px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    font-weight: 400;
 }
 
 .video{
@@ -158,12 +163,17 @@ body{
 .main-text_main-part_easy-useful{
     font-size: 45px;
     margin: 100px 0 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .secondary-text_main-part_easy-useful{
     font-size: 25px;
     color: #C1CDD2;
     margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
 }
 
 
@@ -171,6 +181,8 @@ body{
     font-size: 15px;
     color: #B0BEC5;
     margin-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 .secondary-part_easy-useful_img{
@@ -179,6 +191,8 @@ body{
 
 .main-text_secondary-part_easy-useful{
     margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .man-img{
@@ -198,7 +212,9 @@ body{
 }
 
 .subtitle-text_secondary-part_easy-useful{
-
+    font-size: 15px;
+    color: #78909C;
+    font-weight: 400px;
 }
 
 .easy-useful_button{
@@ -212,6 +228,7 @@ body{
     justify-content: center;
     margin: 81px 0 100px 0;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18); 
+    font-weight: 800;
 }
 
 .button-container{
