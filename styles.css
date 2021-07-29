@@ -63,6 +63,7 @@ body{
     font-size: 55pt;
     font-family: 'Raleway', sans-serif;  
     text-transform: uppercase;
+    font-weight: 800;
 }
 
 .main-text_container{
@@ -126,7 +127,9 @@ body{
     height: 354px;
     background: url(./images/video.png);
     margin-left: 100px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top_part {
@@ -148,8 +151,7 @@ body{
 
 .secondary-part_easy-useful{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -184,15 +186,15 @@ body{
 }
 
 .calendar-part_secondary-part_easy-useful{
-    margin: 0 100px 0 100px;
+
 }
 
 .man-part_secondary-part_easy-useful{
-    margin: 0 100px 0 100px;
+
 }
 
 .fireman-part_secondary-part_easy-useful{
-    margin: 0 100px 0 100px;
+
 }
 
 .subtitle-text_secondary-part_easy-useful{
@@ -209,9 +211,11 @@ body{
     display: flex;
     justify-content: center;
     margin: 81px 0 100px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18); 
 }
 
 .button-container{
     display: flex;
     justify-content: center;
 }
+
