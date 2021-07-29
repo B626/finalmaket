@@ -5,11 +5,10 @@
 }
 
 body{
-    background: url(./images/Background.png) center no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+
 }
+
+/* top part */
 
 
 .icon {
@@ -19,8 +18,8 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-
     align-items: center;
+    margin-bottom: 151px;
 }
 
 .container {
@@ -64,7 +63,6 @@ body{
     font-size: 55pt;
     font-family: 'Raleway', sans-serif;  
     text-transform: uppercase;
-    padding: 151px 0 0 0;
 }
 
 .main-text_container{
@@ -75,13 +73,13 @@ body{
 .subtitle-text {
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 18pt;  
+    font-size: 18px;  
     margin: 18pt 0 42px 0;
     line-height: 1.5;
 }
 
 .buttons{
-    margin: 60px 0 0 0;
+    margin-top: 15px;
     
 }
 
@@ -117,4 +115,103 @@ body{
 .buttons-and-text{
     display: flex;
     flex-direction: column
+}
+
+.maincontent{
+    display: flex;
+}
+
+.photo{
+    width: 634px;
+    height: 354px;
+    background: url(./images/video.png);
+    margin-left: 100px;
+
+}
+
+.top_part {
+    background: url(./images/Background.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* easy & useful */
+
+.easy_useful{
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-part_easy-useful{
+    text-align: center;
+}
+
+.secondary-part_easy-useful{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-text_main-part_easy-useful{
+    font-size: 45px;
+    margin: 100px 0 5px;
+}
+
+.secondary-text_main-part_easy-useful{
+    font-size: 25px;
+    color: #C1CDD2;
+    margin-bottom: 10px;
+}
+
+
+.third-text_main-part_easy-useful{
+    font-size: 15px;
+    color: #B0BEC5;
+    margin-bottom: 100px;
+}
+
+.secondary-part_easy-useful_img{
+    margin-bottom: 45px;
+}
+
+.main-text_secondary-part_easy-useful{
+    margin-bottom: 15px;
+}
+
+.man-img{
+    margin-bottom: 33px;
+}
+
+.calendar-part_secondary-part_easy-useful{
+    margin: 0 100px 0 100px;
+}
+
+.man-part_secondary-part_easy-useful{
+    margin: 0 100px 0 100px;
+}
+
+.fireman-part_secondary-part_easy-useful{
+    margin: 0 100px 0 100px;
+}
+
+.subtitle-text_secondary-part_easy-useful{
+
+}
+
+.easy-useful_button{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 28px 20px 28px;
+    color: white;
+    background-color: #1DE9B6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin: 81px 0 100px 0;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
 }
