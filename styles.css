@@ -113,3 +113,8 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+
+.buttons-and-text{
+    display: flex;
+    flex-direction: column
+}
