@@ -5,7 +5,7 @@
 }
 
 body{
-
+    font-family: 'Raleway', sans-serif;
 }
 
 /* top part */
@@ -250,3 +250,141 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* Services */
+
+.lightblue{
+    background: url(./images/RectangleBlue.png);
+    width: 100%;
+}
+
+.blue_services{
+    background: url(./images/darkblue.png);
+    width: 100%;
+}
+
+.purple_services{
+    background: url(./images/purple.png);
+    width: 100%;
+}
+
+.pink_services{
+    background: url(./images/pink.png);
+    width: 100%;
+}
+
+.container-items_services{
+    display: flex; 
+    flex-direction: row; 
+}
+
+.container-items_services_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 45px 56px 45px;
+}
+
+.container-items_services_item_text{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.container-items_services_item_img{
+    margin-right: 24px;
+}
+
+.second_container-items_services_item_text{
+    width: 100px;
+}
+
+.different_services{
+    width: 150px;
+}
+
+.second-part_services{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.second-part_services_main-text{
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.second-part_services_subtitle-text{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #B0BEC5;
+    margin-bottom: 47px;
+}
+
+
+.third-part_services{
+
+}
+
+
+.third-part_services_second-part{
+    padding: 25px 17px 24px 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    width: 800px;
+    border-radius: 2px;
+}
+
+.third-part_services_img{
+    width: 18px;
+    height: 11px;
+}
+
+.third-part_services_main-text{
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 25px 11px;
+    color: #061e37;
+}
+
+.container_third-part_services_second-part{
+    display: flex;
+    justify-content: center;
+}
+
+.third-part_services_container-for-text-and-img{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.third-part_services_second-part_main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.third-part_services_second-part_text-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 26px;
+    font-weight: 400;
+}
+
+.third-part_services_second-part_text-content_first_text{
+    margin-bottom: 42px;
+}
+
+.third-part_services_second_img{
+    width: 11px;
+    height: 6px;
+    margin:0 0 0 450px;
+}
+
+.container_third-part_services{
+    max-width: 750px;
+}
+
