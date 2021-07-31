@@ -344,8 +344,23 @@ body{
 .interviews-part_customers-part_avatar{
     width: 60px;
     height: 60px;
+    margin-right: 35px;
 }
 
 .customers-part_second-part{
     margin-top: 86px;
+}
+
+.container_interviews-part_customers-part_avatar{
+    display: flex;
+    align-items: center;
+}
+
+.customers-part_arrow_container{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.customers-part_arrow{
 }
