@@ -251,140 +251,101 @@ body{
     justify-content: center;
 }
 
-/* Services */
+/* Customers */
 
-.lightblue{
-    background: url(./images/RectangleBlue.png);
+.customers-part{
+    background: url(./images/background2.png) center no-repeat;
+    background-size: cover;
     width: 100%;
+    height: 564px;
 }
 
-.blue_services{
-    background: url(./images/darkblue.png);
-    width: 100%;
+.main_text-part_customers-part{
+
 }
 
-.purple_services{
-    background: url(./images/purple.png);
-    width: 100%;
-}
-
-.pink_services{
-    background: url(./images/pink.png);
-    width: 100%;
-}
-
-.container-items_services{
-    display: flex; 
-    flex-direction: row; 
-}
-
-.container-items_services_item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 45px 45px 56px 45px;
-}
-
-.container-items_services_item_text{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-}
-
-.container-items_services_item_img{
-    margin-right: 24px;
-}
-
-.second_container-items_services_item_text{
-    width: 100px;
-}
-
-.different_services{
-    width: 150px;
-}
-
-.second-part_services{
-    text-align: center;
-    margin-top: 100px;
-}
-
-.second-part_services_main-text{
+.main_text-part_customers-part_title{
     font-size: 45px;
-    font-family: 'Raleway', sans-serif;
+    color: white;
     font-weight: 600;
-    margin-bottom: 16px;
+    width: 500px;
+    margin-top: 134px;
 }
 
-.second-part_services_subtitle-text{
+.main_text-part_customers-part_subtitle{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 520px;
+    height: 39px;
     font-weight: 400;
-    color: #B0BEC5;
-    margin-bottom: 47px;
+    margin-top: 19px;
 }
 
-
-.third-part_services{
-
-}
-
-
-.third-part_services_second-part{
-    padding: 25px 17px 24px 26px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    width: 800px;
-    border-radius: 2px;
-}
-
-.third-part_services_img{
-    width: 18px;
-    height: 11px;
-}
-
-.third-part_services_main-text{
-    font-size: 15px;
-    font-weight: 800;
+.main_text-part_customers-part_button{
+    color: white;
     text-transform: uppercase;
-    margin: 0 0 25px 11px;
-    color: #061e37;
-}
-
-.container_third-part_services_second-part{
-    display: flex;
-    justify-content: center;
-}
-
-.third-part_services_container-for-text-and-img{
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-}
-
-.third-part_services_second-part_main-content{
-    display: flex;
-    flex-direction: row;
-}
-
-.third-part_services_second-part_text-content{
-    display: flex;
-    flex-direction: column;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #061E37;
+    padding: 20px;
     font-size: 15px;
-    margin-left: 26px;
+    margin-top: 77px;
+}
+
+.inteviews-part_customers-part{
+
+}
+
+.interviews-part_customers-part_avatar-john{
+
+}
+
+.interviews-part_customers-part_title{
+    color: #061E37;
+    font-weight: 800;
+}
+
+.interviews-part_customers-part_subtitle{
+
+}
+
+.interviews-part_customers-part_avatar-khalessi{
+
+}
+
+.interviews-part_customers-part_title{
+
+}
+
+.interviews-part_customers-part_subtitle{
+    width: 600px;
+}
+
+.inteviews-part_customers-part_item{
+    color: #78909C;
     font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 67px;
 }
 
-.third-part_services_second-part_text-content_first_text{
-    margin-bottom: 42px;
+.main_customers-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.third-part_services_second_img{
-    width: 11px;
-    height: 6px;
-    margin:0 0 0 450px;
+.inteviews-part_customers-part_item_only-text{
+    background-color: white;
+    padding: 33px 64px 30px 32px;
+    border-radius: 4px;
 }
 
-.container_third-part_services{
-    max-width: 750px;
+.interviews-part_customers-part_avatar{
+    width: 60px;
+    height: 60px;
 }
 
+.customers-part_second-part{
+    margin-top: 86px;
+}
