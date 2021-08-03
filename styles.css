@@ -22,6 +22,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    padding-top: 60px;
 }
 
 .header {
@@ -32,11 +33,10 @@ body {
 }
 
 .icon {
-    margin: 50px 0 0 0;
+
 }
 
 .nav {
-    margin: 50px 0 0 0;
     display: flex;
 }
 
@@ -60,7 +60,6 @@ body {
 }
 
 .sign-up_button {
-    margin: 50px 0 0 0;
     background-color: #0DBBBF;
     border: 1px solid white;
     color: white;
@@ -73,6 +72,17 @@ body {
 
 .sign-up_button:hover {
     background-color: black;
+}
+
+.photo_text{
+    font-weight: 800; 
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #061e37;
+}
+
+.photo_text_link{
+    text-decoration: none; 
 }
 
 /* top part second part*/
@@ -157,6 +167,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
 }
 
 .play_button {
@@ -168,7 +180,7 @@ body {
 /* easy & useful first part*/
 
 .easy_useful {
-    font-family: 'Raleway', sans-serif;
+    padding-top: 100px;
 }
 
 .container_main-part_easy-useful {
@@ -190,7 +202,7 @@ body {
 
 .main-text_main-part_easy-useful {
     font-size: 45px;
-    margin: 100px 0 5px;
+    margin-bottom: 5px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
@@ -357,42 +369,61 @@ body {
     border-radius: 4px;
 }
 
+.inteviews-part_customers-part_second_item_only-text{
+    background-color: white;
+    padding: 33px 64px 30px 32px;
+    margin-bottom: 32px;
+}
+
 .interviews-part_customers-part_avatar {
     width: 60px;
     height: 60px;
     margin-right: 35px;
 }
 
-.customers-part_second-part {}
+.inteviews-part_customers-part_item_only-text_container{
+    
+}
+
+.customers-part_second-part {
+
+}
 
 .container_interviews-part_customers-part_avatar {
     display: flex;
     align-items: center;
 }
 
-.customers-part_arrow_container {
+.customers-part_arrow_down_container {
     display: flex;
     justify-content: center;
-    margin-left: 50px;
 }
 
-.customers-part_arrow {}
+.customers-part_arrow_up_container{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* our team */
 
 .our-team {
     text-align: center;
+    padding-top: 100px;
 }
 
 
-.main-part_our-team {}
+.main-part_our-team {
 
-.second-part_our-team {}
+}
+
+.second-part_our-team {
+
+}
 
 .main-part_our-team_title {
     font-size: 45px;
     font-weight: 600;
-    margin-top: 100px;
     margin-bottom: 29px;
 }
 
@@ -677,7 +708,6 @@ body {
 .form_first-part_title {
     font-size: 45px;
     font-weight: 600;
-    margin-top: 50px;
 }
 
 .form_first-part_subtitle {
@@ -785,6 +815,7 @@ body {
 .contact-us {
     background-color: #FAFAFA;
     height: 661px;
+    padding-top: 50px;
 }
 
 .input_form_item::placeholder {
@@ -810,6 +841,7 @@ body {
 .footer {
     background-color: #061e37;
     text-decoration: none;
+    padding-top: 100px;
 }
 
 .footer_first-part {
@@ -818,7 +850,6 @@ body {
 }
 
 .footer_first-part_img {
-    margin-top: 100px;
 }
 
 .footer_first-nav {
@@ -852,7 +883,7 @@ body {
 }
 
 .footer_first-nav_item {
-    margin: 105px 0 0 50px;
+    margin-left: 50px;
     font-weight: 400;
     text-decoration: none;
     color: white;
