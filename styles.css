@@ -281,8 +281,7 @@ body {
     background: url(./images/background2.png) center no-repeat;
     background-size: cover;
     width: 100%;
-    height: 564px;
-    padding-top: 105px;
+    padding: 40px 0 40px 0;
 }
 
 .customers-part_first-part {
@@ -299,6 +298,7 @@ body {
     font-weight: 600;
     width: 500px;
     margin-bottom: 19px;
+    margin-top: 94px;
 }
 
 .main_text-part_customers-part_subtitle {
@@ -355,6 +355,15 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 67px;
+    align-items: center;
+}
+
+.inteviews-part_customers_second-part_item{
+    color: #78909C;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
 }
 
 .main_customers-part {
@@ -402,6 +411,7 @@ body {
 .customers-part_arrow_up_container{
     display: flex;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 
