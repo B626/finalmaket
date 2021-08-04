@@ -592,9 +592,8 @@ body {
 
 .third-part_services_second-part_text-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 15px;
-    margin-left: 26px;
     font-weight: 400;
 }
 
@@ -665,6 +664,10 @@ body {
     font-size: 15px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.third-part_services_second-part_main-content{
+    display: none;
 }
 
 .email {
@@ -1230,4 +1233,13 @@ body {
         justify-content: center;
         align-items: center;
     }
+}
+
+
+
+
+/* Tabs styles */
+
+.third-part_services_second-part_main-content:target{
+    display: block;
 }
