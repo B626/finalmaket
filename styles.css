@@ -149,7 +149,7 @@ body {
 /* easy & useful first part*/
 
 .easy_useful {
-    padding-top: 100px;
+    padding: 100px 0 100px;
 }
 
 .container_main-part_easy-useful {
@@ -230,7 +230,7 @@ body {
     border-radius: 4px;
     display: flex;
     justify-content: center;
-    margin: 81px 0 100px 0;
+    margin: 81px 0 0 0;
     font-weight: 800;
     transition: .3s;
 }
@@ -357,7 +357,13 @@ body {
     width: 60px;
     height: 60px;
     margin-right: 35px;
+    transition: .4s;
 }
+
+.interviews-part_customers-part_avatar:hover{
+
+}
+
 
 .inteviews-part_customers-part_item_only-text_container{
 
