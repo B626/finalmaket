@@ -352,7 +352,7 @@ body {
 .inteviews-part_customers-part_second_item_only-text{
     background-color: white;
     padding: 33px 64px 30px 32px;
-    
+    border-radius: 4px;
 }
 
 .interviews-part_customers-part_avatar {
@@ -508,7 +508,8 @@ body {
     font-size: 20px;
 }
 
-.gadjets-photo{
+.gadjets_photo{
+    margin-right: 20px;
     width: 250px;
     height: 155px;
 }
@@ -566,11 +567,20 @@ body {
     height: 11px;
 }
 
+.wifi{
+    width: 18px;
+    height: 15px;
+    margin-right: 24px;
+}
+
+.arrow{
+    margin-right: 24px;
+}
+
 .third-part_services_main-text {
     font-size: 15px;
     font-weight: 800;
     text-transform: uppercase;
-    margin: 0 0 25px 11px;
     color: #061e37;
 }
 
@@ -584,10 +594,12 @@ body {
     width: 200px;
     display: flex;
     flex-direction: row;
+
 }
 
 .third-part_services_second-part_main-content {
     display: flex;
+    flex-direction: row;
 }
 
 .third-part_services_second-part_text-content {
@@ -666,6 +678,10 @@ body {
     text-transform: uppercase;
 }
 
+.third-part_services_second_img_link{
+
+}
+
 .third-part_services_second-part_main-content{
     display: none;
 }
@@ -688,6 +704,10 @@ body {
 .wifi {
     width: 14px;
     height: 14px;
+}
+
+.services{
+        padding-bottom: 80px;
 }
 
 /* Form */
@@ -1240,6 +1260,14 @@ body {
 
 /* Tabs styles */
 
-.third-part_services_second-part_main-content:target{
+.rotate {
+    transform: rotate(180deg);
+}
+
+.show {
     display: block;
+}
+
+.hide {
+    display: none;
 }

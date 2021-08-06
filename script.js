@@ -1,16 +1,41 @@
-document.querySelectorAll('.third-part_services_second_img_link').forEach((item) =>
-    item.addEventListener('click', function(e) {
-        e.preventDefault();
-        const id = e.target.getAttribute('href').replace('#', '')
 
-        document.querySelectorAll('.third-part_services_second_img_link').forEach(
-            (child) => child.classList.remove('.third-part_services_second_img_link--active') 
-        );
-        document.querySelectorAll('.third-part_services_second-part_main-content').forEach(
-            (child) => child.classList.remove('.third-part_services_second-part_main-content--active') 
-        );
+const tabs = (headerSelector, tabSelector, conntentSelector, activeClass) => {
+    const header = document.querySelector(headerSelector),
+        tab = document.querySelectorAll(tabSelector),
+        content = document.querySelectorAll(contectSelector)
 
-        item.classList.add('.third-part_services_second_img_link--active');
-        document.getElementById(id).classList.add('.third-part_services_second_img_link--active');
-    })
-);
+        function hideTabContent() {
+            content.forEach(item => {
+                item.style.display = 'none';
+        })
+
+        tab.forEach(item => {
+            item.classList.remove(activeClass)
+        })
+    }
+
+        function showTabContent(i = 0) {
+           content[i].style.display = 'block'
+           tab[i].classList.add(activeClass)
+        }
+
+        hideTabContent()
+        showTabContent()
+
+        header.addEventListener('click', (e) => {
+            const target = e.target
+            if(target.classList.contains(tabSelector.replace(/\./, "")) || 
+            target.parentNode.contains(tabSelector.replace(/\./, ""))) {
+                tab.forEach((item, i) => {
+                    if (target == item || target.parentNode == item) {
+                        hideTabContent()
+                        showTabContent(i)
+                    }
+                })
+            }
+        })
+}
+
+
+
+export default tabs
