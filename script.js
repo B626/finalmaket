@@ -1,41 +1,42 @@
+const buttons = document.querySelectorAll('.third-part_services_second_img_link');
 
-const tabs = (headerSelector, tabSelector, conntentSelector, activeClass) => {
-    const header = document.querySelector(headerSelector),
-        tab = document.querySelectorAll(tabSelector),
-        content = document.querySelectorAll(contectSelector)
+buttons.forEach(item => {
+  item.addEventListener('click', (event) => {
+    event.target.classList.toggle('rotate');
+  })
+})
 
-        function hideTabContent() {
-            content.forEach(item => {
-                item.style.display = 'none';
-        })
+const tab1 = document.querySelector('.tab1');
+const btn1 = document.querySelector('.btn1');
 
-        tab.forEach(item => {
-            item.classList.remove(activeClass)
-        })
-    }
+btn1.addEventListener('click', () => {
+  tab1.classList.toggle('show');
+})
 
-        function showTabContent(i = 0) {
-           content[i].style.display = 'block'
-           tab[i].classList.add(activeClass)
-        }
+const tab2 = document.querySelector('.tab2');
+const btn2 = document.querySelector('.btn2');
 
-        hideTabContent()
-        showTabContent()
+btn2.addEventListener('click', () => {
+  tab2.classList.toggle('show');
+})
 
-        header.addEventListener('click', (e) => {
-            const target = e.target
-            if(target.classList.contains(tabSelector.replace(/\./, "")) || 
-            target.parentNode.contains(tabSelector.replace(/\./, ""))) {
-                tab.forEach((item, i) => {
-                    if (target == item || target.parentNode == item) {
-                        hideTabContent()
-                        showTabContent(i)
-                    }
-                })
-            }
-        })
-}
+const tab3 = document.querySelector('.tab3');
+const btn3 = document.querySelector('.btn3');
 
+btn3.addEventListener('click', () => {
+  tab3.classList.toggle('show');
+})
 
+const tab4 = document.querySelector('.tab4');
+const btn4 = document.querySelector('.btn4');
 
-export default tabs
+btn4.addEventListener('click', () => {
+  tab4.classList.toggle('show');
+})
+
+const tab5 = document.querySelector('.tab5');
+const btn5 = document.querySelector('.btn5');
+
+btn5.addEventListener('click', () => {
+  tab5.classList.toggle('show');
+})
